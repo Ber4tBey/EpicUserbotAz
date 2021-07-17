@@ -122,7 +122,7 @@ if HEROKU_APPNAME is not None and HEROKU_APIKEY is not None:
         Heroku = heroku3.from_key(HEROKU_APIKEY)
         app = Heroku.app(HEROKU_APPNAME)
         heroku_var = app.config()
-        heroku_var["UPSTREAM_REPO_URL"] = "https://github.com/ErdemBey0/EpicUserBot.git"
+        heroku_var["UPSTREAM_REPO_URL"] = "https://github.com/ByMisakiMey/EpicUserBotAz.git"
 else:
     app = None
 
@@ -147,7 +147,7 @@ AI_LANG = os.environ.get("AI_LANG", 'en')
 
 
 # Güncelleyici için özel (fork) repo linki.
-UPSTREAM_REPO_URL = "https://github.com/erdembey0/EpicUserBot.git"
+UPSTREAM_REPO_URL = "https://github.com/ByMisakiMey/EpicUserBotAZ.git"
 
 # Afk mesajların iletilmesi
 AFKILETME = sb(os.environ.get("AFKILETME", "True"))
