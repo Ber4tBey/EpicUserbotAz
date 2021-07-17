@@ -429,7 +429,7 @@ with bot:
                 veriler = (butonlastir(0, sorted(CMD_HELP)))
                 result = await builder.article(
                     f"Xahiş edirəm yalnız .help əmri ilə istifadə edin",
-                    text=f"** Ən Qabaqcıl İstifadəçi Botu! ** [Epik] (https://t.me/EpicUserBot) __İşləmə ...__ \ n \ n ** Qurulmuş Modulların Sayı: ** `{len (CMD_HELP)}" \ n * * Səhifə: ** 1 / {məlumat [0]}",
+                    text=f"**En Gelişmiş UserBot!** [Epic](https://t.me/EpicUserBot) __Çalışıyor...__\n\n**Yüklenen Modül Sayısı:** `{len(CMD_HELP)}`\n**Sayfa:** 1/{veriler[0]}",
                     buttons=veriler[1],
                     link_preview=False
                 )
@@ -465,7 +465,7 @@ Hesabınızı botlara çevirə və istifadə edə bilərsiniz. Bütün quraşdı
             sayfa = int(event.data_match.group(1).decode("UTF-8"))
             veriler = butonlastir(sayfa, CMD_HELP)
             await event.edit(
-                f"** Ən Qabaqcıl İstifadəçi Botu! ** [Epik] (https://t.me/EpicUserBot) __İşləmə ...__ \ n \ n ** Qurulmuş Modulların Sayı: ** `{len (CMD_HELP)}" \ n * * Səhifə: ** 1 / {məlumat [0]}",
+                f"** Ən Q] (https://t.me/EpicUserBot) __İşləmə ...__ \ n \ n ** Qurulmuş Modulların Sayı: ** `{len (CMD_HELP)}" \ n * * Səhifə: ** 1 / {məlumat [0]}",
                 buttons=veriler[1],
                 link_preview=False
             )
