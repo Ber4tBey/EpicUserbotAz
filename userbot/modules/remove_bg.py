@@ -9,7 +9,7 @@
 # Prakasaka tarafından portlanmıştır.
 #
 
-mport io
+import io
 import os
 import requests
 from userbot.events import register
