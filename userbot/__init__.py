@@ -415,9 +415,9 @@ with bot:
         @tgbot.on(NewMessage(pattern='/start'))
         async def start_bot_handler(event):
             if not event.message.from_id == uid:
-                await event.reply(f'`Salam, mən  @EpicUserBot`am! Sahibimə kömək etmək üçün buradayam (`@ @ me.username}`), ona görə sizə kömək edə bilmərəm: / Ancaq bir dastan da aça bilərsiniz; Kanalı yoxlayın `@EpicUserBot')
+                await event.reply(f'Salam men` @EpicUserBot`! Mən sahibəm (`@{me.username}`) Kömək etmək üçün burdayam, ona görə də sizə kömək edə bilmərəm :/ Ancaq bir dastan da aça bilərsiniz; Kanalı yoxlayın `@EpicUserBot')
             else:
-                await event.reply(f'`Tengri save Turks! Epic working... `')
+                await event.reply(f'`Tengri save azeri! Epic working... `')
 
         @tgbot.on(InlineQuery)  # pylint:disable=E0602
         async def inline_handler(event):
