@@ -465,7 +465,7 @@ Hesabınızı botlara çevirə və istifadə edə bilərsiniz. Bütün quraşdı
             sayfa = int(event.data_match.group(1).decode("UTF-8"))
             veriler = butonlastir(sayfa, CMD_HELP)
             await event.edit(
-                f"** Ən Q] (https://t.me/EpicUserBot) __İşləmə ...__ \ n \ n ** Qurulmuş Modulların Sayı: ** `{len (CMD_HELP)}" \ n * * Səhifə: ** 1 / {məlumat [0]}",
+                f"Ən inkişaf etmiş UserBot! [Epic](https://t.me/EpicUserBot) __işləyir...__\n\n**Qurulmuş modulların sayı: `{len(CMD_HELP)}`\n**Səhifə: 1/{veriler[0]}",
                 buttons=veriler[1],
                 link_preview=False
             )
