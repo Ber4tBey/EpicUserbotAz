@@ -22,7 +22,7 @@ import userbot.cmdhelp
 
 ALIVE_MSG = [
     "`Userbotunuz işləyir və sizə bir şey demək istəyir .. mən sizi sevirəm` **{epicsahip}** ❤️",
-    "🎆 `Narahat olma! Səni tək qoymayacağam. "**{epicsahip}**," EpicUserbot çalışır.`",
+    "🎆 `Narahat olma! Mən səni tək qoymaram.` **{epicsahip}**, `EpicUserbot işləyir.`",
     "`⛈️ Əlimdən gələni etməyə hazıram`, **{epicsahip}**",
     "✨ `EpicUserBot sahibinin sifarişi ilə hazırdır...`",
     "`Ən qabaqcıl istifadəçi tərəfindən düzəldilmiş mesajı hazırda oxumalısınız` **{epicsahip}**.",
